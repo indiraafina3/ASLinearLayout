@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+tools:context=".MainActivity">
+
+
+<TextView
+    android:id="@+id/firsttext"
+    android:layout_centerInParent="true"
+    android:textColor="@android:color/white"
+    android:padding="18dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello World!" />
+
+<TextView
+    android:layout_below="@id/firsttext"
+    android:textColor="@android:color/white"
+    android:padding="18dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello World!" />
+<Button
+    android:id="@+id/button"
+    android:text="Button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<EditText
+    android:inputType="date"
+    android:hint="Tulis nama kamu"
+    android:padding="18dp"
+    android:layout_toRightOf="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<ImageView
+    android:layout_below="@+id/button"
+    android:src="@mipmap/ic_launcher"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</LinearLayout>
